@@ -14,6 +14,12 @@
 		483F9FC82570A079004634D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483F9FC72570A079004634D6 /* Assets.xcassets */; };
 		483F9FCB2570A079004634D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483F9FC92570A079004634D6 /* LaunchScreen.storyboard */; };
 		483F9FCE2570A079004634D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FCD2570A079004634D6 /* main.m */; };
+		483F9FD82570CAA2004634D6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FD72570CAA2004634D6 /* Book.m */; };
+		483F9FDD2570CAD6004634D6 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FDC2570CAD6004634D6 /* App.m */; };
+		483F9FE12570CB80004634D6 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FE02570CB80004634D6 /* Phone.m */; };
+		483F9FE62570D078004634D6 /* LoDBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FE52570D078004634D6 /* LoDBook.m */; };
+		483F9FEB2570D08A004634D6 /* LoDApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FEA2570D08A004634D6 /* LoDApp.m */; };
+		483F9FEF2570D15D004634D6 /* LoDPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F9FEE2570D15D004634D6 /* LoDPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,18 @@
 		483F9FCA2570A079004634D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483F9FCC2570A079004634D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		483F9FCD2570A079004634D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		483F9FD62570CAA2004634D6 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		483F9FD72570CAA2004634D6 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		483F9FDB2570CAD6004634D6 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		483F9FDC2570CAD6004634D6 /* App.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		483F9FDF2570CB80004634D6 /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		483F9FE02570CB80004634D6 /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		483F9FE42570D078004634D6 /* LoDBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoDBook.h; sourceTree = "<group>"; };
+		483F9FE52570D078004634D6 /* LoDBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoDBook.m; sourceTree = "<group>"; };
+		483F9FE92570D08A004634D6 /* LoDApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoDApp.h; sourceTree = "<group>"; };
+		483F9FEA2570D08A004634D6 /* LoDApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoDApp.m; sourceTree = "<group>"; };
+		483F9FED2570D15D004634D6 /* LoDPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoDPhone.h; sourceTree = "<group>"; };
+		483F9FEE2570D15D004634D6 /* LoDPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoDPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,13 @@
 				483F9FBC2570A077004634D6 /* AppDelegate.m */,
 				483F9FBE2570A077004634D6 /* SceneDelegate.h */,
 				483F9FBF2570A077004634D6 /* SceneDelegate.m */,
+				483F9FD62570CAA2004634D6 /* Book.h */,
+				483F9FD72570CAA2004634D6 /* Book.m */,
+				483F9FDB2570CAD6004634D6 /* App.h */,
+				483F9FDC2570CAD6004634D6 /* App.m */,
+				483F9FDF2570CB80004634D6 /* Phone.h */,
+				483F9FE02570CB80004634D6 /* Phone.m */,
+				483F9FE32570D053004634D6 /* LoD */,
 				483F9FC12570A077004634D6 /* ViewController.h */,
 				483F9FC22570A077004634D6 /* ViewController.m */,
 				483F9FC42570A077004634D6 /* Main.storyboard */,
@@ -74,6 +99,19 @@
 				483F9FCD2570A079004634D6 /* main.m */,
 			);
 			path = MQLODDemo;
+			sourceTree = "<group>";
+		};
+		483F9FE32570D053004634D6 /* LoD */ = {
+			isa = PBXGroup;
+			children = (
+				483F9FE42570D078004634D6 /* LoDBook.h */,
+				483F9FE52570D078004634D6 /* LoDBook.m */,
+				483F9FE92570D08A004634D6 /* LoDApp.h */,
+				483F9FEA2570D08A004634D6 /* LoDApp.m */,
+				483F9FED2570D15D004634D6 /* LoDPhone.h */,
+				483F9FEE2570D15D004634D6 /* LoDPhone.m */,
+			);
+			path = LoD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483F9FD82570CAA2004634D6 /* Book.m in Sources */,
 				483F9FC32570A077004634D6 /* ViewController.m in Sources */,
 				483F9FBD2570A077004634D6 /* AppDelegate.m in Sources */,
+				483F9FE12570CB80004634D6 /* Phone.m in Sources */,
+				483F9FDD2570CAD6004634D6 /* App.m in Sources */,
 				483F9FCE2570A079004634D6 /* main.m in Sources */,
+				483F9FE62570D078004634D6 /* LoDBook.m in Sources */,
 				483F9FC02570A077004634D6 /* SceneDelegate.m in Sources */,
+				483F9FEF2570D15D004634D6 /* LoDPhone.m in Sources */,
+				483F9FEB2570D08A004634D6 /* LoDApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQLODDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQLODDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
